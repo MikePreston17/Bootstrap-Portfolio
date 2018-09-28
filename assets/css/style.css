@@ -1,0 +1,150 @@
+header {
+    padding: 0px;
+    color: #fff;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+    min-height: 100px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Background pattern from Toptal Subtle Patterns */
+body {
+    background-image: url("../images/backgrounds/polonez_car_@2X.png");
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 0px;
+    margin: 0px;
+    height: 100%;
+    padding: 35px;
+}
+
+section {
+    /* clear: both; */
+    float: right;
+    border: rgba(251, 255, 0, 0.616) 3px solid;
+}
+
+p {
+    /* used for paragraphs and all text besides the headings */
+    color: #777;
+}
+
+input,
+textarea {
+    /* border: solid green; */
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+}
+
+footer {
+    background-color: #666;
+    float: clear;
+}
+
+input {
+    line-height: 150%;
+    height: 75%;
+}
+
+div {
+    /* border: blue 3px double; */
+    color: #777;
+}
+
+div.card {
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 32px;
+    padding: 30px;
+}
+
+div.menu {
+    float: right;
+    /* border: hotpink 1px solid; */
+    /* float: right; */
+}
+
+section.left {
+    float: left;
+    /* border: rgba(251, 255, 0, 0.616) 3px solid; */
+}
+
+h1.accent {
+    background-color: #fff;
+    padding-top: 0px;
+    padding-left: 0px;
+    color: #4aaaa5;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #ccc;
+}
+
+img.bounded {
+    height: 200px;
+    float: left;
+    /* border: orangered 2px solid; */
+    margin: 5px;
+}
+
+.menu * {
+    background: initial;
+    border: 0px;
+    border-left: 2px solid #ccc;
+}
+
+.menu *:first-child {
+    border: 0px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Use on all 3 pages */
+.main {
+    background-color: #fff;
+}
+
+.container {
+    /* border: hotpink solid dotted 1px; */
+    position: relative;
+    margin: auto;
+    /*keeping this, as it will assist floating to 'center'*/
+    width: 960px;
+}
+
+.name {
+    float: left;
+}
+
+.link {
+    color: #666;
+    padding: 10px;
+}
+
+/*Debug Operations*/
+.ninja {
+    visibility: hidden;
+    color: black;
+}
+
+nav.navbar {
+    border: 1px solid #e91e63
+}
+
+div.container {
+    border: 1px solid rgb(70, 70, 177)
+}
