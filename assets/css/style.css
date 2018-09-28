@@ -64,6 +64,7 @@ div.card {
     background-color: #fff;
     margin-top: 32px;
     padding: 30px;
+    border: transparent;
 }
 
 div.menu {
@@ -131,7 +132,7 @@ img.bounded {
 }
 
 .link {
-    color: #666;
+    color: #e91e63;
     padding: 10px;
 }
 
@@ -141,10 +142,16 @@ img.bounded {
     color: black;
 }
 
-nav.navbar {
+/* nav.navbar {
     border: 1px solid #e91e63
-}
+} */
 
 div.container {
-    border: 1px solid rgb(70, 70, 177)
+    padding: 0px;
+    /* border: 1px solid rgb(70, 70, 177) */
+}
+
+
+button.submit {
+    background-color: #e91e63;
 }
