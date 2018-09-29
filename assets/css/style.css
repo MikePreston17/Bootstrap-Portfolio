@@ -42,7 +42,8 @@ textarea {
 }
 
 footer {
-    color: gold; 
+    clear: both;
+    color: gold;
     /* background-color: #666; */
     /* float: clear;
     */
@@ -199,4 +200,17 @@ div.card>img {
 .ninja {
     visibility: hidden;
     color: black;
+}
+
+/* from other project */
+
+.gallery {
+    width: 390px;
+    height: 260px;
+}
+
+.bounding-box {
+    background-image: url(...);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
